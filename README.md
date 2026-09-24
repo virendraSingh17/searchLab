@@ -1,29 +1,23 @@
-# SearchLab — BCA Final Year Project
+# 🔎 SearchLab — Search Algorithm Visualizer
 
-An interactive Search Algorithm Visualizer and Performance Analyzer built with React + Vite.
+SearchLab is an interactive web-based project designed to visualize and understand different searching algorithms through step-by-step execution.
 
-## Algorithms
+It demonstrates:
 - Linear Search — O(n)
 - Binary Search — O(log n)
 - Jump Search — O(√n)
-- Interpolation Search — O(log log n) average for uniformly distributed data
+- Interpolation Search — Average O(log log n)
 
-## Features
-- Step-by-step search visualization
-- Random and preset datasets
-- Target value input
-- Comparison counter
-- Performance comparison table
-- Search history
-- Algorithm learning section
-- Responsive UI
+The project provides visual feedback for each comparison, shows whether the target is found, tracks search steps, and helps compare algorithm performance and complexity.
 
-## Run
-npm install
-npm run dev
+## 🛠️ Tech Stack
 
-## Build
-npm run build
+- React.js
+- Vite
+- JavaScript
+- HTML
+- CSS
 
-## Future scope
-Backend search API, database indexing, fuzzy search, autocomplete, Trie/B-tree based search and large dataset benchmarking.
+## 🎯 Purpose
+
+This project was developed as a **Learning purpose** to make searching algorithms easier to understand through interactive visualization rather than only theoretical explanations.
